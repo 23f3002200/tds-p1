@@ -1,6 +1,5 @@
 http://127.0.0.1:8000/ready
 
-
 create fully responsive and working  captcha solver web app that handles ?url=https://.../image.png. Default to attached sample.
 
 
