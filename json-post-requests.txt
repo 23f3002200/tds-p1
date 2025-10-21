@@ -7,10 +7,10 @@ create fully responsive and working  captcha solver web app that handles ?url=ht
 #captcha app
 {
     "email": "23f3002200@ds.study.iitm.ac.in",
-    "secret": "superdupersecret123",
+    "secret": "superdupersecret123"
     "task": "captcha-solver-123",
     "round": 1,
-    "nonce": "ab12-cdef-3456",
+    "nonce": "UUID7",
     "brief": "create a captcha solver that handles ?url=https://.../image.png. Default to attached sample.",
     "checks": [
       "Repo has MIT license",
@@ -23,11 +23,11 @@ create fully responsive and working  captcha solver web app that handles ?url=ht
 
 #markdown to html app
 {
-    "email": "test@example.com",
-    "secret": "superdupersecret123",
+    "email": "23f3002200@ds.study.iitm.ac.in",
+    "secret": "superdupersecret123"
     "task": "markdown-to-html",
     "round": 1,
-    "nonce": "ab12-cdef-1234",
+    "nonce": "UUID7",
     "brief": "create a index.html  page that converts input.md from attachments to HTML with marked, renders it inside",
     "checks": [
       "Repo has MIT license",
@@ -47,7 +47,7 @@ create fully responsive and working  captcha solver web app that handles ?url=ht
     "secret": "superdupersecret123",
     "task": "sum-of-sales",
     "round": 1,
-    "nonce": "ab12-cdef-1234",
+    "nonce": "UUID7",
     "brief": "Publish a single-page site that fetches data.csv from attachments, sums its sales column, sets the title to 'Sales Summary ${seed}', displays the total inside <div>",
     "checks": [
         "document.title === `Sales Summary ${seed}`",
@@ -64,11 +64,11 @@ create fully responsive and working  captcha solver web app that handles ?url=ht
 
 # markdown summary
 {
-  "email": "alpha@example.com",
-  "secret": "markdown-secret",
+  "email": "23f3002200@ds.study.iitm.ac.in",
+  "secret": "superdupersecret123",
   "task": "markdown-summary",
   "round": 1,
-  "nonce": "md-1234-xyz",
+  "nonce": "UUID7",
   "brief": "Publish a site that loads README.md, extracts the 'Total Points' value, sets title to 'Markdown Summary ${seed}', and displays it inside #points.",
   "checks": [
     "document.title === `Markdown Summary ${seed}`",
